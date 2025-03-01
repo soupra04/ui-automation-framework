@@ -20,7 +20,7 @@ public class EditQuoteGrid extends CommonToAllPages {
 	}
 
 	private By quote = By.xpath("//a[@title='VCT Quotes']");
-	private By quoteName = By.xpath("//a[@title='QT-000100353']");
+	private By quoteName = By.xpath("//a[@title='QT-000100374']");
 	private By editQuoteButton = By.xpath("//li[@data-target-selection-name='sfdc:CustomButton.StrataVAR__CustomerBoM__c.StrataVAR__Edit_Quote']//button[normalize-space(text())='Edit Quote']");
 	//private By totalListPrice = By.xpath("//div[@id='qtWrapper']/div[1]/div[1]/div[1]/div/div[1]");
     private By loadingText = By.xpath("//div[contains(@class, 'auraLoadingBox') and contains(@class, 'oneLoadingBox')]//div[contains(@class, 'loadingText')]");
