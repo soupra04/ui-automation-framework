@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-15T23:12:57 IST" name="Default suite" finished-at="2025-02-15T23:14:25 IST" duration-ms="87316">
+  <suite started-at="2025-03-01T20:06:17 IST" name="Default suite" finished-at="2025-03-01T20:08:27 IST" duration-ms="130127">
     <groups>
     </groups>
-    <test started-at="2025-02-15T23:12:57 IST" name="Default test" finished-at="2025-02-15T23:14:25 IST" duration-ms="87316">
-      <class name="tests.salesfoce.TestCreateQuote">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestCreateQuote@5276d6ee]" started-at="2025-02-15T23:12:58 IST" name="setup" finished-at="2025-02-15T23:12:59 IST" duration-ms="1870" status="PASS">
+    <test started-at="2025-03-01T20:06:17 IST" name="Default test" finished-at="2025-03-01T20:08:27 IST" duration-ms="130127">
+      <class name="tests.salesfoce.TestImportBoM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:06:17 IST" name="setup" finished-at="2025-03-01T20:06:18 IST" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCreationOfQuote()[pri:0, instance:tests.salesfoce.TestCreateQuote@5276d6ee]" started-at="2025-02-15T23:12:59 IST" name="testCreationOfQuote" finished-at="2025-02-15T23:14:23 IST" duration-ms="83779" status="PASS">
+        <test-method signature="testImportBom()[pri:1, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:06:19 IST" name="testImportBom" finished-at="2025-03-01T20:07:22 IST" duration-ms="63739" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreationOfQuote -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestCreateQuote@5276d6ee]" started-at="2025-02-15T23:14:23 IST" name="tearDown" finished-at="2025-02-15T23:14:25 IST" duration-ms="1498" status="PASS">
+        </test-method> <!-- testImportBom -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:07:22 IST" name="tearDown" finished-at="2025-03-01T20:07:24 IST" duration-ms="1512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.salesfoce.TestCreateQuote -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:07:24 IST" name="setup" finished-at="2025-03-01T20:07:25 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testImportDeal()[pri:2, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:07:25 IST" name="testImportDeal" finished-at="2025-03-01T20:08:25 IST" duration-ms="60020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImportDeal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestImportBoM@51891008]" started-at="2025-03-01T20:08:25 IST" name="tearDown" finished-at="2025-03-01T20:08:27 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.salesfoce.TestImportBoM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

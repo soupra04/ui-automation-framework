@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.salesfoce.TestCreateQuote">
+      <class name="tests.salesfoce.TestImportBoM">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testCreationOfQuote"/>
+          <include name="testImportDeal"/>
         </methods>
-      </class> <!-- tests.salesfoce.TestCreateQuote -->
+      </class> <!-- tests.salesfoce.TestImportBoM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

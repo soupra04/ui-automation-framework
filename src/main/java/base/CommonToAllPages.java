@@ -13,6 +13,7 @@ public class CommonToAllPages {
 
     WebDriver driver;
     protected WebDriverWait wait;
+    protected WebDriverWait wait1;
     Actions actions;
 
     /**
@@ -20,7 +21,8 @@ public class CommonToAllPages {
      */
     public CommonToAllPages() {
         this.driver = getDriver(); // Get the WebDriver instance from DriverManager
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Initialize WebDriverWait
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(40)); // Initialize WebDriverWait
+        this.wait1 = new WebDriverWait(driver, Duration.ofSeconds(90)); // Initialize WebDriverWait
         this.actions = new Actions(driver); // Initialize Actions
     }
 

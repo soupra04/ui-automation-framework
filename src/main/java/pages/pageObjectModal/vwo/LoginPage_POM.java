@@ -60,6 +60,16 @@ public class LoginPage_POM extends CommonToAllPages {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
 
 	}
+	
+	public void loginWith_excel(String user, String pwd) {
+        driver.get(PropertiesReader.readkey("url"));
+        enterInput(username, user);
+        enterInput(password, pwd);
+        clickElement(signButton);
+}
+	
 }
