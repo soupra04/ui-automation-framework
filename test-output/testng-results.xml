@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-02T00:23:41 IST" name="Default suite" finished-at="2025-03-02T00:25:25 IST" duration-ms="103697">
+  <suite started-at="2025-03-02T16:46:47 IST" name="Suite" finished-at="2025-03-02T16:50:29 IST" duration-ms="221881">
     <groups>
     </groups>
-    <test started-at="2025-03-02T00:23:41 IST" name="Default test" finished-at="2025-03-02T00:25:25 IST" duration-ms="103697">
+    <test started-at="2025-03-02T16:46:47 IST" name="Test" finished-at="2025-03-02T16:50:29 IST" duration-ms="221881">
       <class name="tests.salesfoce.TestEndToEndFlow">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestEndToEndFlow@2254127a]" started-at="2025-03-02T00:23:41 IST" name="setup" finished-at="2025-03-02T00:23:45 IST" duration-ms="3917" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestEndToEndFlow@17d919b6]" started-at="2025-03-02T16:48:48 IST" name="setup" finished-at="2025-03-02T16:48:50 IST" duration-ms="2012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEnd()[pri:0, instance:tests.salesfoce.TestEndToEndFlow@2254127a]" started-at="2025-03-02T00:23:46 IST" name="endToEnd" finished-at="2025-03-02T00:25:24 IST" duration-ms="98045" status="PASS">
+        <test-method signature="endToEnd()[pri:3, instance:tests.salesfoce.TestEndToEndFlow@17d919b6]" started-at="2025-03-02T16:48:50 IST" name="endToEnd" finished-at="2025-03-02T16:50:27 IST" duration-ms="97303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestEndToEndFlow@2254127a]" started-at="2025-03-02T00:25:24 IST" name="tearDown" finished-at="2025-03-02T00:25:25 IST" duration-ms="1533" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestEndToEndFlow@17d919b6]" started-at="2025-03-02T16:50:27 IST" name="tearDown" finished-at="2025-03-02T16:50:29 IST" duration-ms="1601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.salesfoce.TestEndToEndFlow -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.salesfoce.TestImportBoM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:46:47 IST" name="setup" finished-at="2025-03-02T16:46:50 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testImportBom()[pri:1, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:46:50 IST" name="testImportBom" finished-at="2025-03-02T16:47:50 IST" duration-ms="60126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImportBom -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:47:50 IST" name="tearDown" finished-at="2025-03-02T16:47:52 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:47:52 IST" name="setup" finished-at="2025-03-02T16:47:53 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testImportDeal()[pri:2, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:47:53 IST" name="testImportDeal" finished-at="2025-03-02T16:48:46 IST" duration-ms="53100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImportDeal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.salesfoce.TestImportBoM@2235eaab]" started-at="2025-03-02T16:48:46 IST" name="tearDown" finished-at="2025-03-02T16:48:48 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.salesfoce.TestImportBoM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
