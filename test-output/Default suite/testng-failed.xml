@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.salesfoce.TestEndToEndFlow">
+      <class name="tests.prw.TestAlCreation">
         <methods>
-          <include name="endToEnd"/>
+          <include name="testAlCreation"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.salesfoce.TestEndToEndFlow -->
+      </class> <!-- tests.prw.TestAlCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
