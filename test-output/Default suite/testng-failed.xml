@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.prw.TestAlCreation2">
+      <class name="tests.vwoLoginPage.pageObjectModel_TestCase.TestVWOLogin_POM">
         <methods>
-          <include name="testAlCreation"/>
+          <include name="testLoginNegativeVWO"/>
           <include name="tearDown"/>
+          <include name="teardownReport"/>
           <include name="setup"/>
+          <include name="setupReport"/>
         </methods>
-      </class> <!-- tests.prw.TestAlCreation2 -->
+      </class> <!-- tests.vwoLoginPage.pageObjectModel_TestCase.TestVWOLogin_POM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
