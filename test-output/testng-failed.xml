@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.vwoLoginPage.pageObjectModel_TestCase.TestVWOLogin_POM">
+      <class name="tests.salesfoce.TestImportBoM">
         <methods>
-          <include name="testLoginNegativeVWO"/>
+          <include name="testImportBom"/>
           <include name="tearDown"/>
-          <include name="teardownReport"/>
           <include name="setup"/>
+          <include name="teardownReport"/>
+          <include name="testImportDeal"/>
           <include name="setupReport"/>
         </methods>
-      </class> <!-- tests.vwoLoginPage.pageObjectModel_TestCase.TestVWOLogin_POM -->
+      </class> <!-- tests.salesfoce.TestImportBoM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
